@@ -6,19 +6,12 @@
 ## 📁 Project Structure
 
 ```
-├── backend      # Express/Node.js backend
-├── public/
-├── src/
-│   ├── assets/                # Images or icons
-│   ├── components/            # Reusable components (Charts, Table, etc.)
-│   ├── pages/                 # Main pages like Dashboard
-│   ├── styles/                # All CSS files
-│   │   └── Dashboard.css
-│   ├── utils/                 # Helper functions like risk score calculation
-│   ├── types/                 # TypeScript interfaces and types
-│   ├── App.tsx
-│   ├── index.tsx
-├── package.json
+├── backend/               # Express/Node.js backend
+│   ├── data/                # data directory
+│   ├── routes/              # Routes mappings
+│   ├── server.js            #main server file
+│   ├── package.json
+├── 
 ```
 
 
@@ -50,7 +43,7 @@
   https://credit-risk-dashboard-backend-4qw6.onrender.com/api/status
   https://credit-risk-dashboard-backend-4qw6.onrender.com/api/alerts
   
-  Deployment Backend : https://credit-risk-dashboard-backend-4qw6.onrender.com
+  Deployment Backend: https://credit-risk-dashboard-backend-4qw6.onrender.com
   Deployment for Frontend: credit-risk-dashboard-two.vercel.app
 <img width="1280" alt="image" src="https://github.com/user-attachments/assets/28e6e279-f8d3-4bdb-85ad-35ce8a17dbc9" />
 
